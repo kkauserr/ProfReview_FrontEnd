@@ -1,0 +1,55 @@
+*{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    padding: 0;
+}
+.welcome-page {
+    height: 100vh;
+    background: linear-gradient(to right top, rgba(161,161,161,0.5), rgba(132,180,215,0.5), rgba(0, 209, 227, 0.5), rgba(0, 230, 161, 0.5), rgba(168, 235, 18, 0.5));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 70px;
+    transition: all 1s ease;
+}
+.welcome-page h1 {
+    color: #000000;
+    font-size: 6em;
+    margin-bottom: 50px;
+}
+.welcome-page h2 {
+    color: #000000;
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+.searchNav-button {
+    background-color: #ffffff;
+    border-radius: 50%;
+    padding: 15px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.6);
+    transition: background 0.3s ease;
+}
+.searchNav-button img {
+    width: 50px;
+    height: 50px;
+}
+.attribution
+{
+    margin-top: 300px;
+    font-size: 5px;
+    color: #ffffff;
+}
+.fade-out {
+    animation: fadeOut 1s forwards;
+}
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}

@@ -1,0 +1,75 @@
+body{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    padding-top: 0px;
+}
+.search-page
+{
+    height: 100vh;
+    background: linear-gradient(to right top, rgba(161,161,161,0.5), rgba(132,180,215,0.5));
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 200px;
+    display: flex;
+    transition: all 1s ease;
+}
+.search-page h1
+{
+    color: #000000;
+    font-size: 4em;
+    margin-bottom: 30px;
+}
+.search-bar
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+form {
+    display: flex;
+    align-items: center;
+}
+form input[type="text"] {
+    padding: 15px;
+    font-size: 1.2em;
+    border: 1px solid #ccc;
+    border-radius: 50px 0 0 50px; 
+    outline: none;
+    width: 300px; 
+    box-shadow: 0 4px 8px rgba(4, 4, 4, 0.7);
+}
+.search-button
+{
+    display: flex;
+    background-color: rgba(169, 25, 174, 0.495);
+    border-radius: 60%;
+    padding: 10px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(4, 4, 4, 0.7);
+    transition: background 0.3s ease;
+}
+.search-button img
+{
+    width: 30px;
+    height: 30px;
+}
+.searchAttribution
+{
+    margin-top: 300px;
+    padding: 0;
+    font-size: 5px;
+    color: #000000;
+}
+.fade-in {
+    animation: fadeIn 1s forwards;
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
